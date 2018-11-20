@@ -71,7 +71,7 @@ body {
 }
 
 div .cenovka {
-  position: absolute; left: 270px; top: 64%; 
+  position: absolute; left: 270px; top: 390px; 
   float: right;
   text-align: right;
   padding-right: 30px;
@@ -111,21 +111,21 @@ div .cenovka {
 }
 
 .parametr {
+  position: relative;
   text-transform: uppercase;
   padding-top: 30px;
   margin-top: 0;
 }
 
 .velikosti li {
-  display: block;
-  float: left;
+  display: inline-block;
   text-align: center;
-  width: 15%;
   padding: 10px;
 }
 
 ul.velikosti {
 padding: 0;
+margin: 0;
 }
 
 .vybrana {
@@ -140,8 +140,9 @@ a.tlacitko {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  display: block;
+  position: absolute;
   padding: 15px 40px 15px 40px;
   border-radius: 10px;
-  float: left;
-  margin: 40px 0px 15px 0px;
+  margin: 30px 0 0 0;
 }
